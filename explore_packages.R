@@ -6,6 +6,6 @@ installed.packages()
 
 ipt <- installed.packages() %>%
   as_tibble() %>%
-  select(Package, LidPath, Version, Priority, Built)
+  select(Package, LibPath, Version, Priority, Built)
   
 ipt
