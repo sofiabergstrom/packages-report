@@ -1,3 +1,7 @@
+#' ---
+#' output: github_document
+#' ---
+
 library(tidyverse)
 
 .libPaths()
@@ -9,3 +13,4 @@ ipt <- installed.packages() %>%
   select(Package, LibPath, Version, Priority, Built)
   
 ipt
+
